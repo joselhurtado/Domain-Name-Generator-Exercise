@@ -16,12 +16,12 @@ window.onload = function() {
       for (let k = 0; k < noun.length; k++) {
         for (let l = 0; l < dtl.length; l++) {
           document.querySelector("#domain_name").innerHTML +=
-            '<li class="py-2 text-secondary"><h3> www.' +
+            '<p class="text-secondary"><h3> www.' +
             pronoun[i] +
             adj[j] +
             noun[k] +
             dtl[l] +
-            " </h3></li>";
+            " </h3></p> <hr>";
         }
       }
     }
